@@ -1,3 +1,31 @@
+body{
+    background-color: #e5e5e5;
+}
+
+/* Most likely will end up changing most of this*/
+h1{
+    color:black;
+}
+h2{
+    color:white;
+}
+
+h3{
+    color:black;
+}
+
+a{
+    color:white;
+}
+
+li{
+    padding-bottom: 4px;
+}
+
+a:hover{
+    color: black;
+}
+
 .float-container{
     padding: 20px;
     padding-top: 1px;
@@ -12,9 +40,12 @@
 }
 
 .container-title{
-    
+    background-color: #14213d;
 }
 
 .container-body{
     padding-left: 20%;
+    background-color: #fca311;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
