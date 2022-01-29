@@ -1,0 +1,20 @@
+.float-container{
+    padding: 20px;
+    padding-top: 1px;
+    display: flex;
+}
+
+.float-child{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    flex:1;
+}
+
+.container-title{
+    
+}
+
+.container-body{
+    padding-left: 20%;
+}
