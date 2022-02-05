@@ -132,3 +132,46 @@ body{
     float: left;
     margin-left: 36%;
 }
+
+/*Video Div*/
+#videos{
+    background-color: #DACC96;
+    padding-bottom: 30px;
+    margin: 0%;
+    width: 100%;
+    width: 100vw;
+    height: 50vh;
+}
+
+#videos h1{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#videos iframe{
+    margin: 2%;
+}
+
+/*Tour Div*/
+#tour{
+    padding-bottom: 30px;
+    margin: 0%;
+    width: 100%;
+    width: 100vw;
+    height: 300px;
+
+    font-family: 'Exo', sans-serif;
+    color: white;
+    padding-top:20px; 
+}
+
+#tour h1{
+    text-align: center;
+}
+
+#tour li{
+    text-decoration: none;
+    padding: 10px;
+}
