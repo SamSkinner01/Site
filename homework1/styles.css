@@ -149,7 +149,8 @@ body{
 }
 
 #videos iframe{
-    margin-left: 35%;
+    display: block;
+    margin: 0 auto; 
 }
 
 /*Tour Div*/
