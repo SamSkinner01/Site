@@ -1,51 +1,88 @@
-body{
-    background-color: #e5e5e5;
+body {  
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
-/* Most likely will end up changing most of this*/
-h1{
-    color:black;
-}
-h2{
-    color:white;
+html, body {
+    padding: 0;
+    margin: 0;
 }
 
-h3{
-    color:black;
+#title{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 50px;
+    text-shadow: 0 0 5px #00FF41;
+}
+
+.description{
+    height: 500px;
+    width: 100%;
+}
+
+.left{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+.right{
+
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+
+.left h1{
+    text-align: center;
+    padding: 175px ;
+    letter-spacing: 3px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 5px #00FF41;
+}
+
+.right p{
+    text-align: center;
+    padding: 100px ;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 0 2px #00FF41;
+}
+
+table{
+    padding: 150px ;
+    text-align: center;
+    padding-left: 5px;
+    padding-left: 250px;
+}
+
+
+table th{
+    padding: 0 15px;
+    font-weight: bold;
 }
 
 a{
-    color:white;
+    text-decoration: none;
+    color: white;
 }
 
-li{
-    padding-bottom: 4px;
+a :hover{
+    text-decoration: none;
+    color: #00FF41;
 }
 
-a:hover{
-    color: black;
+.right code{
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 0 2px #00FF41;
 }
 
-.float-container{
-    padding: 20px;
-    padding-top: 1px;
-    display: flex;
-}
-
-.float-child{
-    width: 50%;
-    float: left;
-    padding: 20px;
-    flex:1;
-}
-
-.container-title{
-    background-color: #14213d;
-}
-
-.container-body{
-    padding-left: 20%;
-    background-color: #fca311;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
