@@ -14,8 +14,10 @@ html, body {
     text-align: center;
     color: white;
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 75px;
     text-shadow: 0 0 5px #00FF41;
+    font-weight: bold;
+    font-style:italic;
 }
 
 .description{
