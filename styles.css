@@ -1,153 +1,56 @@
-body {  
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+body{
+    overflow-x:hidden;
 }
-
-html, body {
-    padding: 0;
-    margin: 0;
-}
-
-#title{
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    font-size: 75px;
-    text-shadow: 0 0 5px #00FF41;
-    font-weight: bold;
-    font-style:italic;
-}
-
-.description{
-    height: 500px;
-    width: 100%;
-}
-
-.left{
-    box-sizing: border-box;
-    float: left;
-    width: 50%;
-    height: 500px;
-}
-
-.right{
-
-    box-sizing: border-box;
-    float: right;
-    width: 50%;
-    height: 500px;
-}
-
-.left h1{
-    text-align: center;
-    padding: 175px ;
-    letter-spacing: 3px;
-    font-size: 50px;
-    color: white;
-    text-shadow: 0 0 5px #00FF41;
-}
-
-.right p{
-    text-align: center;
-    padding: 100px ;
-    letter-spacing: 2px;
-    font-size: 18px;
-    color: white;
-    text-shadow: 0 0 2px #00FF41;
-}
-
-table{
-    padding:150px ;
-    text-align: center;
-    padding-left: 100px;
-}
-
-
-table th{
-    padding: 0 15px 10px 0;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    text-shadow: 0 0 4px #00FF41;
-    font-size: 40px;
-}
-
 
 a{
     text-decoration: none;
-    color: white;
+    color: #898980;
 }
 
-a :hover{
-    text-decoration: none;
-    color: #00FF41;
+h1{
+    font-size: 50px;
+}
+a:hover{
+    color:#A9B2AC
 }
 
-.right code{
-    letter-spacing: 2px;
-    font-size: 18px;
-    color: white;
-    text-shadow: 0 0 2px #00FF41;
+img{
+    width: 300px;
+    height: 400px;
 }
 
-/* Kinda know how it works but just thought it was cool!*/
-* {
-    -webkit-animation: fadein 2s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 2s;
-    /* Internet Explorer */
-    -o-animation: fadein 2s;
-    /* Opera < 12.1 */
-    animation: fadein 2s;
+.title{
+    text-align: center;
+    padding: 7% 15%;
 }
 
-.fade {
-    margin: 50px;
-    padding: 50px;
-    background-color: lightgreen;
-    transition: opacity 0.7s ease-in;
+.about{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #C5DAC1;
 }
 
-.fadeOut {
-    opacity: 0;
+.homework{
+    padding: 7% 15%;
+    text-align: center;
 }
 
-.fadeIn {
-    opacity: 1;
+.homework-list{
+    text-align: center;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+.hw-list{
+    padding:2%;
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+.projects{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #C5DAC1;
 }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+.projects-list{
+    text-align: center;
 }
+
+
