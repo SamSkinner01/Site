@@ -1,4 +1,4 @@
-# Site
+# Web Programming Site
 
-#To-Do
-Homework 2 and Make homepage nicer
+# To Do
+1. Homework 2
