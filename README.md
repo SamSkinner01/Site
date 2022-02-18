@@ -1,4 +1,4 @@
 # Web Programming Site
 
 # To Do
-1. Homework 2
+1. Project 1
