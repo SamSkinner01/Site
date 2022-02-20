@@ -1,0 +1,52 @@
+
+/* General CSS */
+body{
+    background-color: white;
+    color:#404040;
+    font-family: Georgia, Garamond, sans-serif;
+    font-size: 11pt;
+    background:url(images/silverware.jpg);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6{
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    letter-spacing: .25em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: left;
+    font-size: 18pt;
+}
+
+/* Link */
+a {
+    color: #a4a400;
+}
+
+/* List */
+ul {
+    list-style-image: url(images/pie_bullet.png);
+}
+
+/* Blockquotes */
+blockquote{
+    background-color:#FFFFA8;
+}
+
+abbr{
+    text-decoration: underline;
+}
+
+.strike-through{
+    text-decoration: line-through;
+}
