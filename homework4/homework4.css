@@ -1,0 +1,28 @@
+body,html{
+  margin: 0;
+  height: 100%;
+}
+
+.image{
+  background-image: url("bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input{
+  text-align: center;
+  padding: 17% 0;
+}
+
+h1, h2{
+    color: #0B3D91;
+    font-weight: bolder;
+    text-shadow: 1px 1px white;
+}
+
+p{
+  margin: 0;
+  color: #FC3D21;
+}
