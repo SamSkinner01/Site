@@ -37,16 +37,13 @@ div.banner-image{
 }
 
 /* Critics */
-.critics{
-    width: 500px;
+#critic{
+    width: 550px;
     float: left;
 }
 
-.col{
-    column-count: 1;
-}
-
 .top{
+    width: 550px;
     background: url(images/rbg.png);
     background-repeat: repeat-x;
     font-size:48pt;
@@ -61,9 +58,9 @@ div.banner-image{
 }
 
 .review-col{
-    width:47%;
+    width:258px; /* Doesn't work with 47%, used hard coded value instead*/
     float: left;
-    margin-left: 2%;
+    margin-left: 10px; /* Doesn't work with 2%, used hard coded value instead*/
 }
 
 .review{
