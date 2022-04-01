@@ -1,0 +1,130 @@
+/* General CSS */
+body{
+    background: url(images/background.png);
+    font-size: 8pt;
+    font-family: Verdana, Tahoma,sans-serif;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+/* Banner Image  */
+div.banner-image{
+    background: url(images/bannerbg.png);
+    height: 50px;
+    background-repeat: repeat-x;
+}
+
+.banner-image{
+    text-align: center;
+}
+
+/* Content */
+#content{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px gray solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Critics */
+.critics{
+    width:500px;
+    float: left;
+}
+
+.col{
+    column-count: 1;
+}
+
+.top{
+    background: url(images/rbg.png);
+    background-repeat: repeat-x;
+    font-size:48pt;
+    color: red;
+    font-weight:bold;
+    text-align: left;
+}
+
+.top img {
+    vertical-align: bottom;
+    height: 83px;
+}
+
+.review-col{
+    width:47%;
+    float: left;
+    margin-left: 2%;
+}
+
+.review{
+    background-color: #e8dc9b;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding:8px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 8pt;
+    margin-top: 11px;
+}
+
+
+.review img{
+    margin-right: 5px;
+    float: left;
+    vertical-align: top;
+}
+
+.reviewer{
+    font-style: italic;
+    margin-bottom: 20pt;
+}
+
+.reviewer img{
+    float: left;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+
+/* General Overview */
+#general-overview{
+    float: right;
+    background-color: #a2b964;
+    width: 250px;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+.overview-content{
+    margin: 10pt;
+    text-align:left;
+}
+
+dt{
+    font-weight: bold;
+    margin-top: 10pt;
+}
+
+ul, li{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* Bottom */
+#bot{
+    background-color: #a2b964;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    clear:both;
+}
