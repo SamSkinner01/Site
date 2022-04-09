@@ -1,4 +1,4 @@
 # Web Programming Site
 
-# To Do
-1. 
+## To Do
+Everything is currently up to date. 
